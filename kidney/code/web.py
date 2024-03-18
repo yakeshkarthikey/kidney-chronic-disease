@@ -195,7 +195,7 @@ with tab1:
     st.markdown("If you Already have the account, kindly Log-in")
     st.subheader("Create an Account")
     new_username = st.text_area("Username")
-    new_password = st.text_area("Password",label_visibility="hidden")
+    new_password = st.text_area("Password")
     if st.button("Sign-up"):
         if len(new_password)<8:
             st.warning("password must be of lenghth 8, kindly change it...")
