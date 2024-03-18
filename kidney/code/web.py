@@ -95,7 +95,7 @@ def result():
             col12.metric("RBC Count",str(rbcc),)
             col13.metric("Hypertension",str(htn),)
                     
-            model = load('D:/para_projects/kidney/code/model.pkl')
+            model = load('kidney/code/model.pkl')
                     # Model Testing
             x = np.array([[float(bp),float(sg),float(al),float(su),float(rbc),float(bu),float(sc),float(sod),float(pot),float(hemo),
                                 float(wbcc),float(rbcc),float(htn)]])
