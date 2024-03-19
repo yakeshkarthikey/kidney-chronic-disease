@@ -4,3 +4,4 @@ pandas
 passlib
 plotly
 streamlit
+scikit-learn
