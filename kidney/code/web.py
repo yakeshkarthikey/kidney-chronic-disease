@@ -211,8 +211,7 @@ with tab1:
                 
 with tab3:
     st.caption("you have sucessfully entered.")
-    try:
-        result()                 
-    except Exception:
-        st.error("check the values again")
+    result()                 
+    # except Exception:
+       # st.error("check the values again")
 
